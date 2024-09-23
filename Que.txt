@@ -34,5 +34,51 @@
 32 = Write a program to merge two lists by alternatively taking elements from each list. The method will take 2 arrays as input and return the merged array as output. Input: [1,2,3] and [a,b,c] Output: [1,a,2,b,3,c] Input: [1,2,3,4,5] and [a,b,c] Output: [1,a,2,b,3,c,4,5] Input: [1,2,3] and [a,b,c,d,e] Output: [1,a,2,b,3,c,d,e]
 33 = Variation of Fibonacci The Fibonacci sequence is constructed by adding the last two numbers of the sequence so far to get the next number in the sequence. The first and the second numbers of the sequence are defined as 0 and 1. We get: 0, 1, 1, 2, 3, 5, 8, 13, 21… Write a function which takes input as a number: If the given number is a Fibonacci number, print the number If the given number is NOT a Fibonacci number, print the sum of all even Fibonacci numbers less than the given number. int getFibOutput(int input) { // TODO: } Example (21 is a Fibonacci number) Input: 21 Output: 21 (20 is NOT a Fibonacci number so, output is 10 (2+8)) Input: 20 Output: 10
 34 = Buy and sell stocks. - Balance parenthesis string. - Hour and minute hand problem
+35 = a) Anagram b) Prime no. till n. c) Non duplicate int from the list
+36 = Digits of int ae in ascending or descending or not specified. Ex: 1378 - acs order, 743 - desc order, 3574 - no specific order
+37 = Tell the rank of the entered new mark. Ex: Marks List: {39, 38, 38, 36, 34, 31, 28}, if added mark is: 38: Rank2, 37:Rank3, 36:Rank3
+38 = 2 watches are there 1 for hrs(24) and 1 for min(60), Calculate the shortest unit distance between the 2 time from these watches. Ex: t1=03:56, t2:18:12 Distance=9+16=25. Soln: min(h2 - h1, 24 - h2 + h1)+min(m2-m1, 60-m2+m1), where h2 is the greater hr, m2 is the greater min
+39 = Reverse a string order without changing the order of words in it.
+40 = Find second smallest number in a given array.
+41 = Write your own implementation of parseInt() method
+42 = .Write a program for Maximum profit by buying and selling a share at most k times
+43 =  Apples and oranges puzzle
+44 = find repeating numbers in an array
+45 = why array starts with 0
+46 = find two consecutive no in array which have maximum sum
+47 = check whether given number is strong number or not
+48 = Fibonacci series using recursion
+49 = meeting room problem
+50 = Minimum Profit/Buy and sell stocks
+51 = Maximum Frequency Character and its frequency
+52 = convert binary to decimal using recursion
+53 = check whether string is cyclic or not
+54 = String is anagram or not with space complexity constant
+55 = Find equilibrium point(index) in given array. Equilibrium point is the element from where sum of all elements left to it is equal to sum of all elements right to it.
+56 = Count of elements which are power of 2 in array
+57 = there are two clocks one is working properly(c1) and other one is dis-function(c2). we given c2 is x mins faster than c1 per hour. And after k mins in c1. If we stop c2 clock what will be total angle between hour and min hand in c2. ex x=30 & k=90  output :- 744 64.
+58 = Given an array including alphabates & dash.move all Dash at the end without changing order of alphabets. 
+59 = Minimum coins required of 2 & 5 to get N sum value O(1)
+60 = Given an integer array, find a pair with the given sum in it.
+61 = Dutch national flag
+62 = count pairs in array map implementation
+63 = Merge two sorted array
+64 = Check whether the vowels in a string are in alphabetical order or not
+65 = print the sum of elements of lower triangular matrix 
+66 = binary array was given we have to sort it with using another array or any sorting algorithm 
+67 = convert string into number without using inbuilt function
+68 = convert binary to decimal using recursion
+69 = print the closet prime number of a given number
+70 = Print all the repeating characters in given string
+71 = merge two given arrays and return the resultant array. input-arr1 = [1,2,3,4] arr2 = [7,8,9] output- [1,2,3,4,7,8,9]
+72 = print table of a number
+73 = given a range of numbers(low, high) print all numbers in that range(inclusive) and print "raja" if number is divisible by 7, "software" if number is divisible by 11 and "not a valid output" if number is divisible by 11 and 7 both. input- (6, 12) output- 6, raja, 8, 9, 10, software
+74 = Generate first n fibonacci numbers. input- 7 ouptut- 0,1,1,2,3,5,8,13
+75 = reverse a given string of words. input- raja software labs pune output- pune labs software raja
+76 = Check if given two strings are anagrams
+77 = Balance the given string of parenthesis(only one kind of brackets given in string). input- { } } { } output - { } { } { }
+78 = Find maximum profit earned by buying and selling shares (we are allowed to buy and sell only once). input- {1, 5, 2, 3, 7, 6, 4, 5} output- 6 (buy stock when price = 1 and sell it when price = 7)
+79 = You are given 100 balls in a container mixed, out of which 98 are blue and 2 are red, making probability of blue ball to pick at random = 0.98. How many balls and of which color do we need to add inside the container to make the total probability = 0.99. Answer- Add 100 blue balls. Note: After coding every question you will be asked to explain each step and may be asked to do it some other way.
+80 = Write a program to print according to this sample output Input : aaabbacdd Output : a3b2acd2
 
-glass door 9- 21 mar 2022
+glass door 14
