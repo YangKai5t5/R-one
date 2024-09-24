@@ -3,24 +3,25 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-#include <cctype>  // for tolower
-
+#include <cctype>
 using namespace std;
 
-int main() {
-    string sentence="hello how ARe you";
-    unordered_map<char, int> alphabetCount;  // HashMap to store count of each alphabet
+int main()
+{
+    string sentence = "hello howa ARe you";
+    unordered_map<char, int> alphabetCount;
 
-    // Loop through the sentence
-    for (char ch : sentence) {
-        if (isalpha(ch)) {  // Check if the character is an alphabet
-            ch = tolower(ch);  // Convert to lowercase for case-insensitive counting
-            alphabetCount[ch]++;  // Increment count for the corresponding alphabet
+    for (char ch : sentence)
+    {
+        if (isalpha(ch))
+        {
+            ch = tolower(ch);
+            alphabetCount[ch]++;
         }
     }
 
-    // Display the count of each alphabet
-    for (auto pair : alphabetCount) {
+    for (auto pair : alphabetCount)
+    {
         cout << pair.first << ": " << pair.second << endl;
     }
 
