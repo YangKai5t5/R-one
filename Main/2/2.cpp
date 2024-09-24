@@ -1,4 +1,4 @@
-//  Count occurrence of alphabets in a given sentence.
+//Count occurrence of alphabets in a given sentence.
 
 #include<bits/stdc++.h>
 using namespace std;
