@@ -1,9 +1,6 @@
 //  Count occurrence of alphabets in a given sentence.
 
-#include <iostream>
-#include <string>
-#include <unordered_map>
-#include <cctype>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
