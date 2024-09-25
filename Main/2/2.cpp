@@ -13,7 +13,7 @@ int main()
         if (isalpha(ch))
         {
             ch = tolower(ch);
-            alphabetCount[ch]++;
+            alphabetCount[ch]++; //{'h': 1, 'e': 1}
         }
     }
 
