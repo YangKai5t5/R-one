@@ -3,10 +3,10 @@
 3 =  Reverse String,
 4 =  Find the frequency of characters from the given string
 5 =  if a number if a power of 7
-6 =  clock problem
-7 =  Find the kth highest element in an array
-8 =  Find the angle made by hour and minute at a given specific time
-9 =  Write code for the angle between the "Minute hand" and "hour hand".
+6✔️ =  clock problem 
+7:   Find the kth highest element in an array
+8✔️ =  Find the angle made by hour and minute at a given specific time
+9✔️ =  Write code for the angle between the "Minute hand" and "hour hand".
 10 = find unique element in array using O(n) time and O(1) space complexity.
 11 = second highes number without sorting
 12 = two sum prolem
