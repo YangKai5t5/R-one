@@ -8,8 +8,8 @@
 8  =❎  Find the angle made by hour and minute at a given specific time
 9  =❎  Write code for the angle between the "Minute hand" and "hour hand".
 10 =✔️  find unique element in array using O(n) time and O(1) space complexity.
-11 = second highes number without sorting
-12 = two sum prolem
+11 =✔️  second highes number without sorting
+12 = two sum problem
 13 = valid parenthesis
 14 = Hourglass problem
 15 = First non-repeating character from a string
