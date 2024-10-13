@@ -1,8 +1,4 @@
-git add .
-git commit -m "1"
-git push origin master
-
-
+// Fibonacci using recursion
 #include <iostream>
 using namespace std;
 
