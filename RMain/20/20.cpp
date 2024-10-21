@@ -1,8 +1,4 @@
-git add .
-git commit -m "1"
-git push origin master
-
-
+//Paranthesis checker
 #include <bits/stdc++.h>
 using namespace std;
 

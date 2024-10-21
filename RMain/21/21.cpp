@@ -1,7 +1,4 @@
-git add .
-git commit -m "1"
-git push origin master
-
+//Longest windows of ones
 
 #include <bits/stdc++.h>
 using namespace std;

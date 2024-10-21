@@ -1,4 +1,5 @@
-// Merge sort
+// Merge sort 
+// Not completed
 #include <iostream>
 using namespace std;
 
