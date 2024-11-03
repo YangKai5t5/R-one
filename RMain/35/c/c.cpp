@@ -3,7 +3,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printNonDuplicate(int arr[], int n) {}
+unordered_map<int, int> countFreq(int arr[], int n)
+{
+    unordered_map<int, int> freq;
+    for (int i = 0; i < n; i++)
+    {
+        freq[arr[i]]++;
+    }
+    return freq;
+}
+
+void printNonDuplicate(int arr[], int n)
+{
+    unordered_map<int, int> freq = countFreq(arr, n);
+    for (int i = 0; i < n; i++)
+    {
+        if (freq[arr[i]] == 1)
+        {
+            cout << arr[i] << " ";
+        }
+    }
+}
 
 int main()
 {
