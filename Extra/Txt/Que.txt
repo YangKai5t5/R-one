@@ -34,13 +34,13 @@
 32 = ✔️Write a program to merge two lists by alternatively taking elements from each list. The method will take 2 arrays as input and return the merged array as output. Input: [1,2,3] and [a,b,c] Output: [1,a,2,b,3,c] Input: [1,2,3,4,5] and [a,b,c] Output: [1,a,2,b,3,c,4,5] Input: [1,2,3] and [a,b,c,d,e] Output: [1,a,2,b,3,c,d,e]
 33 =✔️ Variation of Fibonacci The Fibonacci sequence is constructed by adding the last two numbers of the sequence so far to get the next number in the sequence. The first and the second numbers of the sequence are defined as 0 and 1. We get: 0, 1, 1, 2, 3, 5, 8, 13, 21… Write a function which takes input as a number: If the given number is a Fibonacci number, print the number If the given number is NOT a Fibonacci number, print the sum of all even Fibonacci numbers less than the given number. int getFibOutput(int input) { // TODO: } Example (21 is a Fibonacci number) Input: 21 Output: 21 (20 is NOT a Fibonacci number so, output is 10 (2+8)) Input: 20 Output: 10
 34 = Buy and sell stocks. - Balance parenthesis string. - Hour and minute hand problem
-35 = a) Anagram b) Prime no. till n. c) Non duplicate int from the list
-36 = Digits of int ae in ascending or descending or not specified. Ex: 1378 - acs order, 743 - desc order, 3574 - no specific order
-37 = Tell the rank of the entered new mark. Ex: Marks List: {39, 38, 38, 36, 34, 31, 28}, if added mark is: 38: Rank2, 37:Rank3, 36:Rank3
+35 =✔️ a) Anagram b) Prime no. till n. c) Non duplicate int from the list
+36 = ✔️Digits of int ae in ascending or descending or not specified. Ex: 1378 - acs order, 743 - desc order, 3574 - no specific order
+37 = ✔️Tell the rank of the entered new mark. Ex: Marks List: {39, 38, 38, 36, 34, 31, 28}, if added mark is: 38: Rank2, 37:Rank3, 36:Rank3
 38 = 2 watches are there 1 for hrs(24) and 1 for min(60), Calculate the shortest unit distance between the 2 time from these watches. Ex: t1=03:56, t2:18:12 Distance=9+16=25. Soln: min(h2 - h1, 24 - h2 + h1)+min(m2-m1, 60-m2+m1), where h2 is the greater hr, m2 is the greater min
-39 = Reverse a string order without changing the order of words in it.
-40 = Find second smallest number in a given array.
-41 = Write your own implementation of parseInt() method
+39 = ✔️Reverse a string order without changing the order of words in it.
+40 =✔️ Find second smallest number in a given array.
+41 = ✔️Write your own implementation of parseInt() method
 42 = .Write a program for Maximum profit by buying and selling a share at most k times
 43 =  Apples and oranges puzzle
 44 = find repeating numbers in an array
